@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+<style>
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body {
+  height: 100%;
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(6,117,46,1) 100%);
+}
+.container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rap{
+    text-align: center;
+}
+.logo {
+  width: 50%;
+  height: auto;
+  animation: zoom-in-zoom-out 2s ease-out infinite;
+}
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(0.5, 0.5);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.5, 1.5);
+    opacity: 1;
+    
+  }
+  100% {
+    transform: scale(0.5, 0.5);
+    opacity: 0;
+  }
+}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="rap">
+<img class="logo" src="dklogo.png" class="img">
+</div>
+</div >
+</body>
+<script>
+  setTimeout('window.location = "https://dkmartgumla.com";', 3000);
+</script>
+</html>
+
+
